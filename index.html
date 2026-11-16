@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kuis &amp; Kartu Parasitologi Veteriner</title>
+<meta name="description" content="Latihan mengenali parasit dari preparat mikroskop: kuis bertimer dan flashcard.">
+<meta name="theme-color" content="#f2f1f7">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='44' fill='%235b3fa0'/%3E%3Ccircle cx='50' cy='50' r='26' fill='%23d4457a'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+  <header class="top">
+    <div class="brand">
+      <span class="dot" aria-hidden="true"></span>
+      <div>
+        <h1>Parasitologi Veteriner</h1>
+        <p>Kenali parasit dari preparat mikroskop</p>
+      </div>
+    </div>
+    <nav class="tabs" role="tablist" aria-label="Mode belajar">
+      <button role="tab" id="tab-quiz" aria-selected="true" data-mode="quiz">Kuis</button>
+      <button role="tab" id="tab-cards" aria-selected="false" data-mode="cards">Kartu</button>
+    </nav>
+  </header>
+
+  <main id="view" aria-live="polite"></main>
+
+  <footer class="foot">Dibuat oleh <strong>Yosa</strong></footer>
+</div>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
